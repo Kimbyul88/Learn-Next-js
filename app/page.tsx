@@ -39,6 +39,14 @@ export default function Page() {
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
+          <Image
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
+            className="block md:hidden" //md: 라는 것은 min width 인것 같다. 다른 설정 안하면 768px 이라고.
+            placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+            alt="Screenshots of the dashboard project showing mobile version"
+          />
         </div>
       </div>
     </main>
